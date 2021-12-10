@@ -1,6 +1,6 @@
 comments:
   allowedFields: ["name", "email", "website", "comment"]
-  branch            : "master"
+  branch            : "main"
   commitMessage     : "New comment in {options.slug}"
   path: "data/comments/{options.slug}"
   filename          : "comment-{@timestamp}"
